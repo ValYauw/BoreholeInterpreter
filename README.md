@@ -18,7 +18,7 @@ Used tools:
 
 ## Use Cases
 
- - [Getting Started](./Understanding%20the%20BoreholeInterpreter%20Object%20Model.ipynb)
- - [Borehole Visualization](./Example%20-%20Borehole.ipynb)
- - [CPT Visualization](./Example%20-%20CPT.ipynb)
- - [Big Dataset](./Advanced%20Example%20Interpreting%20Large%20Data.ipynb)
+ - [Getting Started](./notebooks/Understanding%20the%20BoreholeInterpreter%20Object%20Model.md)
+ - [Borehole Visualization](./notebooks/Example%20-%20Borehole.md)
+ - [CPT Visualization](./notebooks/Example%20-%20CPT.md)
+ - [Big Dataset](./notebooks/Advanced%20Example%20Interpreting%20Large%20Data.md)
