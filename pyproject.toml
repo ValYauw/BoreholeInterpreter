@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "BoreholeInterpreter"
+version = "0.0.1"
+authors = [
+  { name="Valerie Yauw", email="valerie.yauw@gmail.com" },
+]
+description = "A Python package made to facilitate quick data interpretation of borehole and CPT data. Made for educational purposes."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "pandas",
+  "numpy",
+  "matplotlib",
+  "numba",
+  "shapely"
+]
+
+[project.urls]
+"Homepage" = ""
+"Bug Tracker" = ""
