@@ -192,7 +192,7 @@ class Project:
         if points == 'all':
             list_points = list(query_from_dict.values())
         else:
-            unaccessed_points = list(filter(lambda pt: pt not in query_from_dict.keys(), list_points))
+            unaccessed_points = list(filter(lambda pt: pt not in query_from_dict.keys(), points))
             if len(unaccessed_points) > 0:
                 raise IndexError(f"{', '.join(unaccessed_points)} are not found.")
             list_points = [query_from_dict[k] for k in points]
